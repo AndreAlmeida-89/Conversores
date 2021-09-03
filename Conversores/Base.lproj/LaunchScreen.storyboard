@@ -16,13 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="75V-ga-NSN">
-                                <rect key="frame" x="0.0" y="0.0" width="421" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="75V-ga-NSN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="75V-ga-NSN" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="5Sd-Ce-Jgj"/>
+                            <constraint firstAttribute="trailing" secondItem="75V-ga-NSN" secondAttribute="trailing" id="J7v-hC-9nV"/>
+                            <constraint firstItem="75V-ga-NSN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nAE-yL-g0Q"/>
+                            <constraint firstAttribute="bottom" secondItem="75V-ga-NSN" secondAttribute="bottom" id="rkK-im-Tx0"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
